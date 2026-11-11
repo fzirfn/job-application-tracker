@@ -1,0 +1,36 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & build outputs
+node_modules/
+vendor/
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+
+# Stray root lockfile & local AI agent tooling
+/package-lock.json
+/.agents/
+/.taste-skill/
+/skills-lock.json
+
+# Local databases & test caches
+*.sqlite*
+.phpunit.result.cache
+/.phpunit.cache/
+
+# Logs
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+/.vscode/
+/.idea/
+/.cursor/
+/.codex/
+/.zed/
+
